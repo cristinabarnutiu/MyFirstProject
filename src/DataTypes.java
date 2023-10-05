@@ -31,5 +31,18 @@ public class DataTypes {
         System.out.println(myDouble);
         System.out.println("myDouble");
 
+        byte variabila1 = 100;
+        int variabila2 = variabila1;
+        float variabila3 = 5.5f;
+        int variabila4 = (int) variabila3;
+
+        System.out.println("----");
+        System.out.println("Ex optionale");
+        float variabila5 = 6.7f;
+        float variabila6 = 7.7f;
+        System.out.println(variabila5+variabila6);
+        System.out.println(variabila5-variabila6);
+        System.out.println(variabila5*variabila6);
+
     }
 }
