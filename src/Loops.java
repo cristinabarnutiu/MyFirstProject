@@ -20,10 +20,10 @@ public class Loops {
         }
 
         //WHILE
-        int i=0;
-        while(i<5){
-            System.out.println(i);
-            i++;
+        int l=0;
+        while(l<5){
+            System.out.println(l);
+            l++;
         }
 
         //DO WHILE
@@ -44,6 +44,19 @@ public class Loops {
             k++;
             if(k==4) continue;
             System.out.println(k);
+        }
+
+        //exercitiul 4 A5
+        String fructe[] = {"mar", "caspuni","banane","pere"};
+
+        //varianta1 - FOR clasic
+        for (int i=0; i<fructe.length;i++){
+            System.out.println("Imi place sa mananc "+fructe[i]);
+        }
+
+        //variata2 - FOR EACH
+        for (String f: fructe){
+            System.out.println("Imi place sa mananc "+f);
         }
 
 
